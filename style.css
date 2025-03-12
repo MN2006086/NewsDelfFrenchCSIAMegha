@@ -1,0 +1,184 @@
+* {
+    box-sizing: border box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    height: 500vh;
+    width: 100vw;
+    background-color: 	#D3D3D3;
+
+   
+
+}
+.bPp {
+    font-size: 50px;
+    font-family: "big caslon";
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    font-weight: 600;
+
+}
+
+.header {
+    font-weight: 100px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+    width: 100vw;
+    height: 15vh;
+    background-color: 	#D3D3D3	;
+    font-size: 60px; 
+    font-family: 'big caslon';
+    font-weight: 10;
+
+    
+}
+
+.header-big {
+    font-weight: 100px;
+
+    
+
+    width: 100vw;
+    height: 10vh;
+    color: black;
+    font-size: 40px; 
+    font-family: 'big caslon';
+    font-style: unset;
+    font-weight: 10;
+    font-weight: 400;
+
+    
+}
+
+.box-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 100vw;
+    height: 25vh;
+    
+    color: #EBD4CB;
+    font-size: 25px; 
+    background-color:#0055A4; 
+    font-family: "big caslon";
+    font-style: unset;
+    font-weight: 50;
+
+
+} 
+
+.box-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 100vw;
+    height: 25vh;
+    
+    color: #EBD4CB;
+    font-size: 25px; 
+    background-color: #FFFFFF; 
+    font-family: "big caslon";
+    font-style: unset;
+    font-weight: 50;
+
+
+} 
+
+.box-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 100vw;
+    height: 25vh;
+    
+    color: #EBD4CB;
+    font-size: 25px; 
+    background-color: #EF4135; 
+    font-family: "big caslon";
+    font-style: unset;
+    font-weight: 50;
+
+
+} 
+
+.box-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    
+
+    width: 100vw;
+    height: 50vh;
+    
+    color: #EBD4CB;
+    font-size: 25px; 
+    background-color: 	#B0C4DE; 
+    font-family: "big caslon";
+    font-style: unset;
+    font-size: 40px;
+    font-weight: 50;
+
+
+} 
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box-five {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+
+    width: 110vw;
+    height: 40vh;
+    
+    color: black;
+    font-size: 25px; 
+    background-color: 		#B0C4DE; 
+    font-family: "big caslon";
+    font-style: unset;
+    font-size: 40px;
+    font-weight: 50;
+
+} 
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 23.33%;
+  padding: 2px;
+}
+
+img {
+    padding:0px; 
+    height: 300px; 
+    width: 230px;
+}
